@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  margin: 0;
+  background: linear-gradient(black rgb(49, 49, 49));
+}
+
+
+.language-selector {
+  margin-bottom: 20px;
+}
+
+
+h1 {
+  color: #fff;
+  background-color: #333;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+h1 {
+
+  background-color: rgb(255, 255, 255);
+}
+
+
+.container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+  background-color: white;
+  transition: 0.3s;
+  width: 250px;
+}
+
+
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: 0.5s;
+}
+
+.card img:hover {
+  transform: scale(1.1);
+}
+
+.lang{
+  color: #fff;
+}
